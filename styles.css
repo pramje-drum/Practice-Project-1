@@ -1,9 +1,35 @@
 * {
 	margin: 0;
 	padding: 0;
+    box-sizing: border-box;
 	font-family: "Sour Gummy", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 500;
 	font-style: normal;
 	font-variation-settings: "wdth" 100;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(assets/library.jpg)  no-repeat center center/ cover;
+}
+
+#container{
+    width: 550px;
+    height: 450px;
+}
+
+#header {
+    font-size: 1.3rem;
+    border: solid 2px #fff;
+    background-color: rgb(245, 236, 198);
+    padding: 5px;
+    width: 80% ;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+
