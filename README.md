@@ -5,3 +5,4 @@
 - now working on the styles(css) for the project
 - completed the css part for the project 
 - now will work on script for the project
+- completed the javascript for the project
